@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FPT University - Students Detail</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Q5.css" />
+  </head>
+  <body>
+    <nav class="fpt-navbar">
+      <div class="container d-flex flex-wrap align-items-center">
+        <div class="d-flex align-items-center">
+          <img
+            src="../Screenshot 2026-05-26 112104.png"
+            alt="FPT Logo"
+            class="fpt-logo"
+          />
+        </div>
+        <ul class="nav fpt-nav-links ms-4 me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="bi bi-house-fill"></i> Trang chủ</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="bi bi-journal-text"></i> Ngành học</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="bi bi-person-badge"></i> Tuyển sinh</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"
+              ><i class="bi bi-grid-3x3-gap"></i> Sinh viên</a
+            >
+          </li>
+        </ul>
+        <div class="d-flex align-items-center gap-2">
+          <span class="small text-secondary">Search:</span>
+          <input type="text" class="form-control form-control-sm search-box" />
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner-container">
+      <div class="container">
+        <img
+          src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&q=80&w=1200"
+          alt="FPT Students"
+          class="banner-img"
+        />
+      </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="d-inline-block custom-breadcrumb">
+        <a href="#">Home</a> <span class="text-secondary">/</span>
+        <span class="text-secondary">Students</span>
+      </div>
+
+      <h2
+        class="text-center my-4 fw-normal text-dark"
+        style="font-family: serif"
+      >
+        Students Detail
+      </h2>
+    </div>
+
+    <main class="container">
+      <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="student-card">
+            <img
+              src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=500"
+              alt="Student"
+              class="student-img"
+            />
+            <div class="student-info text-center">
+              <div class="fw-bold text-secondary mb-1">HE123456</div>
+              <div class="d-flex justify-content-between px-3 mb-2">
+                <span>Name</span>
+                <span class="text-muted">DaNang</span>
+              </div>
+              <div class="d-flex justify-content-center gap-4 my-2 text-muted">
+                <label
+                  ><input
+                    type="radio"
+                    name="status1"
+                    class="form-check-input me-1"
+                  />
+                  Absent</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="status1"
+                    class="form-check-input me-1"
+                  />
+                  Present</label
+                >
+              </div>
+              <button class="btn btn-submit mt-2">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="student-card">
+            <img
+              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=500"
+              alt="Student"
+              class="student-img"
+            />
+            <div class="student-info text-center">
+              <div class="fw-bold text-secondary mb-1">HE123654</div>
+              <div class="d-flex justify-content-between px-3 mb-2">
+                <span>Name</span>
+                <span class="text-muted">QuangNam</span>
+              </div>
+              <div class="d-flex justify-content-center gap-4 my-2 text-muted">
+                <label
+                  ><input
+                    type="radio"
+                    name="status2"
+                    class="form-check-input me-1"
+                  />
+                  Absent</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="status2"
+                    class="form-check-input me-1"
+                  />
+                  Present</label
+                >
+              </div>
+              <button class="btn btn-submit mt-2">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="student-card">
+            <img
+              src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=500"
+              alt="Student"
+              class="student-img"
+            />
+            <div class="student-info text-center">
+              <div class="fw-bold text-secondary mb-1">HE321654</div>
+              <div class="d-flex justify-content-between px-3 mb-2">
+                <span>Name</span>
+                <span class="text-muted">QuangNam</span>
+              </div>
+              <div class="d-flex justify-content-center gap-4 my-2 text-muted">
+                <label
+                  ><input
+                    type="radio"
+                    name="status3"
+                    class="form-check-input me-1"
+                  />
+                  Absent</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="status3"
+                    class="form-check-input me-1"
+                  />
+                  Present</label
+                >
+              </div>
+              <button class="btn btn-submit mt-2">Submit</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="student-card">
+            <img
+              src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&q=80&w=500"
+              alt="Student"
+              class="student-img"
+            />
+            <div class="student-info text-center">
+              <div class="fw-bold text-secondary mb-1">HE654321</div>
+              <div class="d-flex justify-content-between px-3 mb-2">
+                <span>Name</span>
+                <span class="text-muted">DaNang</span>
+              </div>
+              <div class="d-flex justify-content-center gap-4 my-2 text-muted">
+                <label
+                  ><input
+                    type="radio"
+                    name="status4"
+                    class="form-check-input me-1"
+                  />
+                  Absent</label
+                >
+                <label
+                  ><input
+                    type="radio"
+                    name="status4"
+                    class="form-check-input me-1"
+                  />
+                  Present</label
+                >
+              </div>
+              <button class="btn btn-submit mt-2">Submit</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="fpt-footer">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-md-6 mb-3 mb-md-0">
+            <h5 class="fw-bold mb-2 fs-6">Our Address</h5>
+            <p class="m-0 text-white-50">Khu đô thị FPT Đà Nẵng</p>
+            <p class="m-0 text-white-50">
+              <i class="bi bi-telephone"></i> +84023111111
+            </p>
+            <p class="m-0 text-white-50">
+              <i class="bi bi-phone"></i> +852 8765 4321
+            </p>
+            <p class="m-0 text-white-50">
+              <i class="bi bi-envelope"></i>
+              <a href="mailto:fptudn@fpt.edu.vn">fptudn@fpt.edu.vn</a>
+            </p>
+          </div>
+          <div class="col-md-6 text-md-end text-start">
+            <div class="social-icons mb-3">
+              <i class="bi bi-google"></i>
+              <i class="bi bi-facebook"></i>
+              <i class="bi bi-linkedin"></i>
+              <i class="bi bi-twitter-x"></i>
+              <i class="bi bi-youtube"></i>
+              <i class="bi bi-envelope-fill"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="text-center mt-4 pt-3 border-top border-light border-opacity-10"
+        >
+          <span class="text-white-50">&copy; Copyright 2023</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

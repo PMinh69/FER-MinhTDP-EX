@@ -1,0 +1,58 @@
+body {
+  background-color: #ffffff;
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+}
+
+/* Vùng Header màu cam đặc trưng */
+.fpt-header {
+  background-color: #e68a22; /* Màu cam đất giống trong ảnh */
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+/* Định dạng khung chứa logo màu trắng */
+.logo-banner {
+  background-color: #ffffff;
+  padding: 30px;
+  max-width: 700px;
+  margin: 0 auto 20px auto; /* Căn giữa block và tạo khoảng cách dưới */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Thanh menu chữ trắng dưới logo */
+.fpt-nav .nav-link {
+  color: #ffffff !important;
+  font-weight: 500;
+  padding: 0 12px;
+}
+.fpt-nav .nav-link:hover {
+  text-decoration: underline;
+}
+
+/* Khu vực nội dung chính */
+.main-content {
+  padding: 60px 0;
+}
+.content-section {
+  margin-bottom: 45px;
+}
+.content-section h2 {
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.content-section p {
+  color: #212529;
+  font-size: 1.05rem;
+}
+
+/* Vùng Footer màu cam nhạt */
+.fpt-footer {
+  background-color: #f3d197; /* Màu cam nhạt nhã nhặn phía dưới */
+  padding: 20px 0;
+  color: #ffffff;
+  font-size: 0.95rem;
+}

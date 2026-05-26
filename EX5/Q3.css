@@ -1,0 +1,28 @@
+body {
+  background-color: #ffffff;
+  font-family: sans-serif;
+}
+/* Header vùng màu xám nhạt */
+.header-bg {
+  background-color: #e9ecef;
+  padding: 40px 0;
+  margin-bottom: 25px; /* Giảm margin một chút để chừa chỗ cho Nav */
+}
+/* Định dạng các ô lưới giống trong ảnh */
+.grid-container {
+  border: 1px solid #7f7f7f;
+}
+.custom-col {
+  background-color: #d3d3d3;
+  border: 1px solid #7f7f7f;
+  padding: 15px 10px;
+  min-height: 60px;
+  color: #333;
+}
+/* Footer vùng màu hồng xám nhạt */
+.footer-bg {
+  background-color: #d6cbd1;
+  padding: 15px 0;
+  margin-top: 40px;
+  font-weight: bold;
+}
