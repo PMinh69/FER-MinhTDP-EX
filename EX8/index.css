@@ -1,0 +1,36 @@
+.form-container {
+  max-width: 600px;
+  margin: 30px auto;
+  border: 1px solid #dee2e6;
+  background-color: #ffffff;
+}
+.custom-alert {
+  background-color: #fff3cd;
+  border-color: #ffeeba;
+  border-radius: 0;
+  position: relative;
+}
+.form-label {
+  color: #495057;
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+.help-text {
+  font-size: 0.75rem;
+  color: #6c757d;
+  margin-top: 0.25rem;
+}
+.input-group-text {
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+.btn-submit {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 0.25rem;
+  padding: 10px;
+  font-weight: 500;
+}
+.btn-submit:hover {
+  background-color: #0056b3;
+}
